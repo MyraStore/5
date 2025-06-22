@@ -10,6 +10,6 @@ source:
 install:
     commands: |
         [ -d /opt/myra/apps ] || mkdir -p /opt/myra/apps
-        ln -sf /opt/bitey/Chocolaterie/myraapp-SuperTuxKart /opt/myra/apps/5
+        ln -sf /opt/bitey/Chocolaterie/myraapp-SuperTuxKart/SuperTuxKart-1.4 /opt/myra/apps/5
         sudo ln -sf /opt/myra/apps/5/init.sh /usr/bin/supertuxkart
         sudo ln -sf /opt/myra/apps/5/data/supertuxkart.desktop /usr/share/applications/supertuxkart.desktop
