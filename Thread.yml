@@ -1,0 +1,15 @@
+name: "SuperTuxKart"
+version: 1.4
+maintainer: "SuperTuxKart Team (ported by The Myra Project)"
+description: "SuperTuxKart is a karting game featuing tu and friends."
+
+source:
+    raw: "https://raw.githubusercontent.com/MyraStore/5/main"
+    package: "https://github.com/MyraStore/5/releases/download/v1.4/SuperTuxKart-1.4.choco.pkg"
+
+install:
+    commands: |
+        [ -d /opt/myra/apps ] || mkdir -p /opt/myra/apps
+        ln -sf /opt/bitey/Chocolaterie/myraapp-SuperTuxKart /opt/myra/apps/5
+        sudo ln -sf /opt/myra/apps/5/init.sh /usr/bin/supertuxkart
+        sudo ln -sf /opt/myra/apps/5/data/supertuxkart.desktop /usr/share/applications/supertuxkart.desktop
