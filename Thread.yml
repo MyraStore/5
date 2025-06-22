@@ -1,7 +1,7 @@
 name: "SuperTuxKart"
 version: 1.4
 maintainer: "SuperTuxKart Team (ported by The Myra Project)"
-description: "SuperTuxKart is a karting game featuing tu and friends."
+description: "SuperTuxKart is a karting game featuing Tux and friends."
 
 source:
     raw: "https://raw.githubusercontent.com/MyraStore/5/main"
